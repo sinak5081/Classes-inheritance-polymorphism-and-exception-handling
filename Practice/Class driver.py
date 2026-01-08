@@ -1,0 +1,11 @@
+from Classimplementation import student
+st1 = student("sina","sinakarimi@gmail.com", 15.5)
+print("First object:")
+st1.displaye()
+st1.sendemail()
+st1.verify()
+print("second object:")
+st2 = student("reza","reza@gmail.com", 19)
+st2.displaye()
+st2.sendemail()
+st2.verify()
